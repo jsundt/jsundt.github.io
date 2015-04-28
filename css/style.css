@@ -4,6 +4,10 @@
 .icon-link {
   display: inline-block;
   text-decoration: none;
+  color: #111;
+}
+.icon-link:hover {
+  color: #555;
 }
 .icon {
   width: 50px;
@@ -15,28 +19,21 @@
 
 /* Icon specific CSS */
 
-
-.burger01_1 {
-  fill:none;
-  stroke:#000;
-  stroke-width:5;
-  stroke-linecap:round;
-  stroke-linejoin:round;
-  stroke-miterlimit:10;
+.burger01 {
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 6;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-miterlimit: 10;
   stroke-dashoffset: 0;
+}
+.burger01_1 {
   stroke-dasharray: 24px 150px;
-  fill: transparent;
 
   transition: stroke-dashoffset 0.5s cubic-bezier(0.25, -0.25, 0.75, 1.25), stroke-dasharray 0.5s cubic-bezier(0.25, -0.25, 0.75, 1.25), stroke 0.5s cubic-bezier(0.25, -0.25, 0.75, 1.25), 0.5s fill 0.2s cubic-bezier(0.25, -0.25, 0.75, 1.25);
 }
 .burger01_2 {
-  fill:none;
-  stroke:#000;
-  stroke-width:5;
-  stroke-linecap:round;
-  stroke-linejoin:round;
-  stroke-miterlimit:10;
-  stroke-dashoffset: 0;
   stroke-dasharray: 23px 40px;
 
   transition: stroke-dashoffset 0.5s cubic-bezier(0.25, -0.25, 0.75, 1.25), stroke-dasharray 0.5s cubic-bezier(0.25, -0.25, 0.75, 1.25), stroke 0.5s cubic-bezier(0.25, -0.25, 0.75, 1.25);
@@ -47,5 +44,53 @@
   stroke-dasharray: 150px;
 }
 .clicked .burger01_2 {
-    stroke-dashoffset: -28px;
-  }
+  stroke-dashoffset: -28px;
+}
+
+
+
+
+.burger02 {
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 6;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-miterlimit: 10;
+
+  transition: stroke-dashoffset 0.4s cubic-bezier(0.25, -0.25, 0.75, 1.25), stroke-dasharray 0.5s cubic-bezier(0.25, -0.25, 0.75, 1.25);
+}
+
+.burger02_1 {
+  stroke-dasharray: 29px 100px;
+}
+.clicked .burger02_1 {
+  stroke-dashoffset: -43px;
+}
+
+
+
+
+.search01 {
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 6;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-miterlimit: 10;
+
+  transition: stroke-dashoffset 0.4s cubic-bezier(0.25, -0.25, 0.75, 1.25), stroke-dasharray 0.5s cubic-bezier(0.25, -0.25, 0.75, 1.25);
+}
+
+.search01_1 {
+  stroke-dasharray: 15px 40px;
+}
+.search01_2 {
+  stroke-dasharray: 73px 100px;
+}
+.clicked .search01_1 {
+  stroke-dasharray: 45px 40px;
+}
+.clicked .search01_2 {
+  stroke-dashoffset: -94px;
+}
