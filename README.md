@@ -1,2 +1,2 @@
 # jsundt.github.io
-The Eleven – Animated SVGs
+The Eleven – Optimized SVGs for development

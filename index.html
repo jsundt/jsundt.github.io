@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+
+  <title>The Eleven – Optimized SVGs for development</title>
+
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+</head>
+<body>
+
+  <h1>Hello World</h1>
+  <p>I'm hosted with GitHub Pages.</p>
+
+  <a href="" class="icon-link">
+    <svg class="icon">
+      <use xlink:href="SVGs/sprite.svg#burger01"></use>
+    </svg>
+  </a>
+  <svg class="icon">
+    <use xlink:href="SVGs/sprite.svg#burger02"></use>
+  </svg>
+  <svg class="icon">
+    <use xlink:href="SVGs/sprite.svg#search01"></use>
+  </svg>
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+
+  <script type="text/javascript">
+
+    $(".icon-link").click(function(e){
+      e.preventDefault();
+      $(this).toggleClass("clicked");
+    });
+
+  </script>
+
+</body>
+</html>
