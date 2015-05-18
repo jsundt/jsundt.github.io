@@ -41,7 +41,7 @@
 
 .clicked .burger01_1 {
   stroke-dashoffset: -31px;
-  stroke-dasharray: 150px;
+  stroke-dasharray: 150px 150px;
 }
 .clicked .burger01_2 {
   stroke-dashoffset: -28px;
